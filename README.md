@@ -38,7 +38,29 @@ cd `examenBackendGL`
 ## 4. Configurar Variable de Entorno
 ## 5. ejecutar el servidor con el siguiente codigo:
 ```npm run dev```
+## Uso de Thunder Client para Probar la API 🚀
 
+Thunder Client es una extensión para Visual Studio Code que te permite hacer solicitudes HTTP y probar tus APIs de manera fácil y rápida. A continuación, te muestro cómo configurar y utilizar Thunder Client para probar nuestra API.
+
+### Instalación de Thunder Client
+
+1. Abre Visual Studio Code.
+2. Ve a la pestaña de **Extensiones** (puedes usar el atajo de teclado `Ctrl+Shift+X` o `Cmd+Shift+X` en macOS).
+3. Busca "Thunder Client" en la barra de búsqueda.
+4. Instala la extensión **Thunder Client** desarrollada por **Ranginang**.
+
+### Configuración de Thunder Client
+
+1. Una vez instalada, abre la extensión desde la barra lateral izquierda de Visual Studio Code (el ícono de rayos).
+2. Haz clic en el botón **New Request** para crear una nueva solicitud.
+3. Configura tu solicitud con los siguientes detalles:
+   - **Método:** Elige el método HTTP adecuado (GET, POST, PUT, DELETE, etc.).
+   - **URL:** Introduce la URL de tu API, por ejemplo, `http://localhost:3005/api/turnos`.
+   - **Headers:** Si tu API requiere autenticación, asegúrate de agregar los encabezados necesarios. Por ejemplo:
+     - **Authorization:** `Bearer <YOUR_JWT_TOKEN>`
+   - **Body:** Si estás haciendo una solicitud POST o PUT, configura el cuerpo de la solicitud en formato JSON.
+  
+     
 # Crear un Usuario 🛠️👤
 
 ## Endpoint 🔗

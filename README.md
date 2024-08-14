@@ -28,7 +28,7 @@ git clone https://github.com/arsabot/examen-backend-GL
 ```
 ## 2. Ingresar a la carpeta
 
-cd `examen-backend-GL`
+cd `examenBackendGL`
 
 ## 3. Instalar las dependencias (si no tienes npm)
 - Asegúrate de tener [Node.js](https://nodejs.org/en/) y **npm** instalados. Si no tienes npm, puedes instalarlo siguiendo las instrucciones en su [sitio oficial](https://www.npmjs.com/).

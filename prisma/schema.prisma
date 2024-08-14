@@ -1,0 +1,40 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Turno {
+  id         Int      @id @default(autoincrement())
+  userId     Int
+  fname      String
+  lname      String
+  email      String
+  age        Int
+  country    String
+  address    String
+  city       String
+  state      String
+  dist       String
+  pincode    String
+  phone      String
+  department String
+  venue      String
+  hospital   String
+  date       DateTime @default(now())
+  book_date  DateTime
+  time_slot  String
+  user       User     @relation(fields: [userId], references: [id])
+}
+
+model User {
+  id       Int     @id @default(autoincrement())
+  name     String
+  email    String  @unique
+  password String
+  isAdmin  Boolean @default(false)
+  turnos   Turno[]
+}

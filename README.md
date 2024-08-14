@@ -35,8 +35,9 @@ cd `examen-backend-GL`
 
 - Instala las dependencias del proyecto ejecutando:
 ```npm install```
-## 4. Configurar Variables de Entorno
-
+## 4. Configurar Variable de Entorno
+## 5. ejecutar el servidor con el siguiente codigo:
+```npm run dev```
 
 # Crear un Usuario 🛠️👤
 

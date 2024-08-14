@@ -55,8 +55,8 @@ Thunder Client es una extensión para Visual Studio Code que te permite hacer so
 2. Haz clic en el botón **New Request** para crear una nueva solicitud.
 3. Configura tu solicitud con los siguientes detalles:
    - **Método:** Elige el método HTTP adecuado (GET, POST, PUT, DELETE, etc.).
-   - **URL:** Introduce la URL de tu API, por ejemplo, `http://localhost:3005/api/turnos`.
-   - **Headers:** Si tu API requiere autenticación, asegúrate de agregar los encabezados necesarios. Por ejemplo:
+   - **URL:** Introduce la URL de la API, por ejemplo, `http://localhost:3005/api/turnos`.
+   - **Headers:** Si la API requiere autenticación, asegúrate de agregar los encabezados necesarios. Por ejemplo:
      - **Authorization:** `Bearer <YOUR_JWT_TOKEN>`
    - **Body:** Si estás haciendo una solicitud POST o PUT, configura el cuerpo de la solicitud en formato JSON.
   

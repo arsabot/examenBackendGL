@@ -24,7 +24,7 @@ Sigue estos pasos para clonar el repositorio y configurar el entorno para probar
 - Primero, clona el repositorio desde GitHub usando el siguiente comando:
 
 ```bash
-git clone https://github.com/arsabot/examen-backend-GL
+git clone https://github.com/arsabot/examenBackendGL.git
 ```
 ## 2. Ingresar a la carpeta
 
